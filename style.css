@@ -1,0 +1,34 @@
+body {
+    
+  }
+  
+  .navbar {
+    overflow: hidden;
+    font-family: "Lobster", cursive;
+  }
+  .jumbotron {
+    font-family: "Lobster", cursive;
+    font-size: 21px;
+    padding-top: 6rem;
+    background-color: #a2d9ff;
+    overflow: hidden;
+  }
+  
+  
+  #contact {
+    font-family: "Lobster", cursive;
+    background-color: #ce95e9;
+    overflow: hidden;
+  }
+  
+  #footer {
+    font-family: "Lobster", cursive;
+    background-color: #212529;
+    font-size: 20px;
+    color: #a2d9ff;
+  }
+  
+  section {
+    padding-top: 5rem;
+  }
+  

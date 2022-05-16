@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- AOS -->
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ephesis&display=swap" rel="stylesheet">
+
+    <title>secret message</title>
+  </head>
+  <body id="home">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow fixed-top" style="background-color: #a2d9ff">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">secret message🤫</a> 
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto fw-bold">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Pesan</a>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- End Navbar -->
+
+<!-- Jumbotron -->
+
+<section class="jumbotron text-center">
+  <h1 class="display-4 fw-bold mb-5"></h1>
+  <p class="lead fw-normal"></p>
+  <a href="https://www.facebook.com/devinxyz" target="_blank"><i class="bi bi-facebook text-dark mx-2"
+     data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="3000"></i></a>
+  <a href="https://www.instagram.com/devinxyz" target="_blank"><i class="bi bi-instagram text-dark mx-2"
+     data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="3000"></i></a>
+  <a href="https://github.com/devinxyz" target="_blank"><i class="bi bi-github text-dark mx-2"
+     data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="3000"></i></a>
+
+     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ce95e9" fill-opacity="1" d="M0,160L48,181.3C96,203,192,245,288,224C384,203,480,117,576,117.3C672,117,768,203,864,213.3C960,224,1056,160,1152,149.3C1248,139,1344,181,1392,202.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+</section>
+
+<!-- End Jumbotron -->
+
+
+
+<!-- Contact -->
+<section id="contact">
+  <div class="container">
+    <div class="row text-center mb-3">
+      <div class="col" data-aos="flip-left" data-aos-duration="2000">
+        <h2>Pesan <i class="bi bi-envelope-fill"></i></h2>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+        <strong>Terimakasih!</strong> Pesan anda sudah terkirim, tenang aman ko.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+        <form name="secret message">
+          <div class="mb-3" data-aos="fade-right" data-aos-duration="2000">
+            <label for="name" class="form-label">Nama</label>
+            <input type="text" class="form-control shadow" id="name" aria-describedby="name" name="nama">
+          </div>
+          <div class="mb-3" data-aos="fade-right" data-aos-duration="2000">
+          <label for="pesan" class="form-label">Pesan</label>
+          <textarea class="form-control shadow" id="pesan" rows="6" name="pesan"></textarea>
+        </div>
+          
+          <button type="submit" class="btn btn-dark shadow btn-kirim" data-aos="zoom-in" data-aos-duration="2000">Kirim</button>
+
+          <button class="btn btn-dark btn-loading d-none" type="button" disabled>
+          <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+          Loading...
+        </button>
+        </form>
+      </div>
+    </div>
+  </div>
+ <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#212529" fill-opacity="1" d="M0,96L48,122.7C96,149,192,203,288,186.7C384,171,480,85,576,96C672,107,768,213,864,213.3C960,213,1056,107,1152,69.3C1248,32,1344,64,1392,80L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+  
+</section>
+<!-- End Contact -->
+
+<!-- Footer -->
+<section id="footer">
+<footer class="bg-dark text-center pb-5">
+  <p class="mb-5">"Terima Kasih sudah mengunjungi website saya, harap dimaklum masi belajar."</p>
+  <h5>Created with <i class="bi bi-heart-fill"></i> by Devinxyz</h5>
+</footer>
+</section>
+<!-- End Footer -->
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/TextPlugin.min.js"></script>
+
+      <script> 
+        gsap.registerPlugin(TextPlugin);
+        gsap.to('.display-4', {duration: 1.5, text: 'Welcome to Secret Message🤫'});
+        gsap.to('.lead', {duration: 2, delay: 1.5, text: 'Ini bukan game, ini hanya forum untuk mengungkapkan perasaan kalian ke someone, forum ini bersifat bebas asal sopan tidak akan terlihat oleh siapapun kecuali oleh saya sendiri pemiliknya wkwkwk. Follow dulu atuhh sosmed saya👇'});
+        gsap.from('.navbar', { duration: 1.5, y: '-100%', opacity: 0, ease: 'bounce'});
+      </script>
+
+
+  
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwbzQ-fxuB5A1rxbj_1OsvsE53yZaaMcudCnmWPKHfsZ2G3QQMTX1XfeXpEWv_IrqdlHA/exec'
+    const form = document.forms['secret message']
+    const btnKirim = document.querySelector('.btn-kirim');
+    const btnLoading = document.querySelector('.btn-loading');
+    const myAlert = document.querySelector('.my-alert');
+    
+    form.addEventListener('submit', e => {
+    e.preventDefault()
+    // ketika tombol submit di klik
+    // tampilkan tombol loading, hilangkan tombol kirim
+    btnLoading.classList.toggle('d-none');
+    btnKirim.classList.toggle('d-none');
+
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        // tampilkan tombol kirim, hilangkan tombol loading
+        btnLoading.classList.toggle('d-none');
+        btnKirim.classList.toggle('d-none');
+        // tampilkan alert
+        myAlert.classList.toggle('d-none');
+        // reset form
+        form.reset();
+        console.log('Success!', response);
+    })
+      .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  </body>
+</html>
